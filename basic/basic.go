@@ -3,6 +3,7 @@ package basic
 import "fmt"
 
 func Basic()  {
+	fmt.Println("\n ..:: basic ::..")
 
 	// Variables can be declarate with var
 	var a string

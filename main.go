@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/romelgomez/golang-hello-mod/basic"
 	"github.com/romelgomez/golang-hello-mod/flags"
+	"github.com/romelgomez/golang-hello-mod/basic"
+	"github.com/romelgomez/golang-hello-mod/loops"
 	"fmt"
 )
 
@@ -14,7 +15,8 @@ func main() {
     fmt.Println("flags.User:\t", flags.User)
     fmt.Println("flags.Date:\t", flags.Date)
 
-	fmt.Println("Hello, 世界")
+	fmt.Println("\n..:: Main ::..")
 
 	basic.Basic()
+	loops.Loops()
 }
