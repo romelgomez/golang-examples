@@ -4,6 +4,7 @@ import (
 	"github.com/romelgomez/golang-hello-mod/flags"
 	"github.com/romelgomez/golang-hello-mod/basic"
 	"github.com/romelgomez/golang-hello-mod/loops"
+	"github.com/romelgomez/golang-hello-mod/arrays"
 	"fmt"
 )
 
@@ -19,4 +20,5 @@ func main() {
 
 	basic.Basic()
 	loops.Loops()
+	arrays.Arrays()
 }
