@@ -1,15 +1,17 @@
 package main
 
 import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"net/http"
+
 	// "github.com/romelgomez/golang-hello-mod/flags"
 	// "github.com/romelgomez/golang-hello-mod/basic"
 	// "github.com/romelgomez/golang-hello-mod/loops"
 	// "github.com/romelgomez/golang-hello-mod/arrays"
 	// "github.com/romelgomez/golang-hello-mod/maps"
-	"encoding/json"
-	"fmt"
-	"io/ioutil"
-	"net/http"
+	// "github.com/romelgomez/golang-hello-mod/functions"
 
 	"github.com/romelgomez/golang-hello-mod/flags"
 )
@@ -67,6 +69,7 @@ func main() {
 	// arrays.Arrays()
 	// maps.Maps()
 	// structs.Structs()
+	// functions.Functions()
 
 	// var a Time
 	// t, err := a.GetTime()
