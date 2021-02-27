@@ -15,6 +15,7 @@ import (
 	// "github.com/romelgomez/golang-hello-mod/interfaces"
 	// "github.com/romelgomez/golang-hello-mod/conversions"
 	// "github.com/romelgomez/golang-hello-mod/pointers"
+	// "github.com/romelgomez/golang-hello-mod/goroutines"
 
 	"github.com/romelgomez/golang-hello-mod/flags"
 )
@@ -76,6 +77,7 @@ func main() {
 	// interfaces.Interfaces()
 	// conversions.Conversions()
 	// pointers.Pointers()
+	// goroutines.Goroutines()
 
 	// var a Time
 	// t, err := a.GetTime()
