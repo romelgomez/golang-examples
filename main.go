@@ -13,8 +13,9 @@ import (
 	// "github.com/romelgomez/golang-hello-mod/maps"
 	// "github.com/romelgomez/golang-hello-mod/functions"
 	// "github.com/romelgomez/golang-hello-mod/interfaces"
-
 	// "github.com/romelgomez/golang-hello-mod/conversions"
+	// "github.com/romelgomez/golang-hello-mod/pointers"
+
 	"github.com/romelgomez/golang-hello-mod/flags"
 )
 
@@ -74,6 +75,7 @@ func main() {
 	// functions.Functions()
 	// interfaces.Interfaces()
 	// conversions.Conversions()
+	// pointers.Pointers()
 
 	// var a Time
 	// t, err := a.GetTime()
