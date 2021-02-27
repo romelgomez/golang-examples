@@ -12,6 +12,7 @@ import (
 	// "github.com/romelgomez/golang-hello-mod/arrays"
 	// "github.com/romelgomez/golang-hello-mod/maps"
 	// "github.com/romelgomez/golang-hello-mod/functions"
+	// "github.com/romelgomez/golang-hello-mod/interfaces"
 
 	"github.com/romelgomez/golang-hello-mod/flags"
 )
@@ -70,6 +71,7 @@ func main() {
 	// maps.Maps()
 	// structs.Structs()
 	// functions.Functions()
+	// interfaces.Interfaces()
 
 	// var a Time
 	// t, err := a.GetTime()
