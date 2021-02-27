@@ -7,16 +7,16 @@ type InterfaceName interface {
 	Perimeter() float64
 }
 
-type Rect struct {
+type StructName struct {
 	width  float64
 	height float64
 }
 
-func (r Rect) Area() float64 {
+func (r StructName) Area() float64 {
 	return r.height * r.width
 }
 
-func (r Rect) Perimeter() float64 {
+func (r StructName) Perimeter() float64 {
 	return 2 * (r.height + r.width)
 }
 
@@ -24,12 +24,12 @@ var s InterfaceName
 
 func Interfaces() {
 
-	s = Rect{width: 5.0, height: 4.0}
-	r := Rect{5.0, 4.0}
+	s = StructName{width: 5.0, height: 4.0}
+	r := StructName{5.0, 4.0}
 
 	fmt.Printf("type of s is %T\n", s)
 	fmt.Printf("value of s is %v\n", s)
-	fmt.Println("area of rectagle", s.Area())
+	fmt.Println("area of StructNameagle", s.Area())
 	fmt.Println("s === r ", s == r)
 
 }
