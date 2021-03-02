@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
+	"github.com/romelgomez/golang-hello-mod/flags"
 	// "github.com/romelgomez/golang-hello-mod/flags"
 	// "github.com/romelgomez/golang-hello-mod/basic"
 	// "github.com/romelgomez/golang-hello-mod/loops"
@@ -18,8 +19,6 @@ import (
 	// "github.com/romelgomez/golang-hello-mod/goroutines"
 	// "github.com/romelgomez/golang-hello-mod/channels"
 	// "github.com/romelgomez/golang-hello-mod/selects"
-
-	"github.com/romelgomez/golang-hello-mod/flags"
 )
 
 type Time struct {
@@ -82,6 +81,7 @@ func main() {
 	// goroutines.Goroutines()
 	// channels.Channels()
 	// selects.Selects()
+	// data_races.DataRaces()
 
 	// var a Time
 	// t, err := a.GetTime()
