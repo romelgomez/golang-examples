@@ -19,6 +19,7 @@ import (
 	// "github.com/romelgomez/golang-hello-mod/goroutines"
 	// "github.com/romelgomez/golang-hello-mod/channels"
 	// "github.com/romelgomez/golang-hello-mod/selects"
+	// "github.com/romelgomez/golang-hello-mod/mutex"
 )
 
 type Time struct {
@@ -82,6 +83,7 @@ func main() {
 	// channels.Channels()
 	// selects.Selects()
 	// data_races.DataRaces()
+	// mutex.Mutex()
 
 	// var a Time
 	// t, err := a.GetTime()
