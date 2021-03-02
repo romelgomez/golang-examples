@@ -20,6 +20,7 @@ import (
 	// "github.com/romelgomez/golang-hello-mod/channels"
 	// "github.com/romelgomez/golang-hello-mod/selects"
 	// "github.com/romelgomez/golang-hello-mod/mutex"
+	// "github.com/romelgomez/golang-hello-mod/teller"
 )
 
 type Time struct {
@@ -84,6 +85,7 @@ func main() {
 	// selects.Selects()
 	// data_races.DataRaces()
 	// mutex.Mutex()
+	// teller.Teller()
 
 	// var a Time
 	// t, err := a.GetTime()
