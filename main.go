@@ -16,6 +16,7 @@ import (
 	// "github.com/romelgomez/golang-hello-mod/conversions"
 	// "github.com/romelgomez/golang-hello-mod/pointers"
 	// "github.com/romelgomez/golang-hello-mod/goroutines"
+	// "github.com/romelgomez/golang-hello-mod/channels"
 
 	"github.com/romelgomez/golang-hello-mod/flags"
 )
@@ -78,6 +79,7 @@ func main() {
 	// conversions.Conversions()
 	// pointers.Pointers()
 	// goroutines.Goroutines()
+	// channels.Channels()
 
 	// var a Time
 	// t, err := a.GetTime()
