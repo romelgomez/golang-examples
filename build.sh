@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 #
 # ref:
@@ -6,12 +6,18 @@
 # - https://www.digitalocean.com/community/tutorials/using-ldflags-to-set-version-information-for-go-applications
 #
 
-# go build -v -ldflags="-X 'main.Version=v1.0.0' -X 'github.com/romelgomez/golang-hello-mod/flags.User=$(id -u -n)' -X 'github.com/romelgomez/golang-hello-mod/flags.Time=$(date)'"
+PROJECT="github.com/romelgomez/golang-hello-mod/go_examples/flags"
 
-PROJECT="github.com/romelgomez/golang-hello-mod"
-VERSION="-X 'main.Version=v1.0.0'"
-USER="-X '$PROJECT/flags.User=$(id -u -n)'"
-TIME="-X '$PROJECT/flags.Time=$(date)'"
-DATE="-X $PROJECT/flags.Date=$(date +%Y-%m-%dT%H:%M:%S).000Z"
+VERSION="-X 'main.Version=v0.0.1'"
 
-go build -v -ldflags="$VERSION $USER $TIME $DATE"
+USER="-X '$PROJECT.User=$(id -u -n)'"
+
+TIME="-X '$PROJECT.Time=$(date)'"
+
+DATE="-X $PROJECT.Date=$(date +%Y-%m-%dT%H:%M:%S).000Z"
+
+ENVIRONMENT="-X '$PROJECT.Environment=development'"
+
+FLAGS="$VERSION $USER $TIME $DATE $ENVIRONMENT"
+
+go build -v -ldflags="$FLAGS"

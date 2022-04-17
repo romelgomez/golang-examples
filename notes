@@ -1,0 +1,3 @@
+`https://github.com/gofiber/fiber`
+
+install go get -u github.com/gofiber/fiber/v2
